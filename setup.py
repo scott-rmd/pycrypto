@@ -36,6 +36,7 @@
 
 __revision__ = "$Id$"
 
+from setuptools import setup
 from distutils import core
 from distutils.ccompiler import new_compiler
 from distutils.core import Extension, Command
