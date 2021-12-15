@@ -303,6 +303,7 @@ class PCTBuildConfigure(Command):
         pass
 
     def run(self):
+        import ipdb; ipdb.set_trace()
         if not os.path.exists("config.status"):
             if hasattr(os, "chmod"):
                 import stat
